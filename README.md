@@ -7,5 +7,5 @@ Description: A Comprehensive Guide for Beginners interested in learning HTML, CS
 <br>
 <br>
 
-This course is Section A of my schooling program. This repository contains course modules and resources as well as my completed work for the course.
+This course is Section A of my learning program. This repository contains the course modules and resources as well as my completed work for the course.
 Course project challenges may be stored in a different repository!
