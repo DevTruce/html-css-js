@@ -1,30 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title> My First Web Page </title>
-    <meta name="description" content="Page Description Here"/>
-    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <head>
+    <title>My First Web Page</title>
+    <meta name="description" content="Page Description Here" />
+    <meta http-equiv="Content-Type" content="text/html" ; charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <style type="text/css">
-        Body {
-            color: red;
-        }
-
+      Body {
+        color: red;
+      }
     </style>
 
     <script>
-        function myFunction() {
-            var x = document.getElementById("fname");
-            x.value = x.value.toUpperCase();
-        }
+      function myFunction() {
+        var x = document.getElementById("fname");
+        x.value = x.value.toUpperCase();
+      }
     </script>
-</head>
+  </head>
 
-<body>
-This is a Sample HTML Document.
-This Javascript function will capitalize my name:
-Enter your name: <input type="text" id="fname" onchange="myFunction()">
-</body>
+    <p>This is a Sample HTML Document.</p>
+    This Javascript function will capitalize my name:
+    <p>Enter your name: <input type="text" id="fname" onchange="myFunction()" /></p>
 
+    <p>This is Line 1. <br> This is Line 2.</p>
+  </body>
 </html>
