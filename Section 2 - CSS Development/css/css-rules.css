@@ -12,14 +12,15 @@ p {
   font-size: 20px;
 }
 
-.h1 {
+.h1-override {
   color: red;
+  text-align: justify;
 }
 
-.h2 {
+h2 {
   color: #33adff;
 }
 
-.h3 {
+h3 {
   color: rgb(255, 0, 255);
 }

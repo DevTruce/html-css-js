@@ -21,3 +21,19 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
+
+.blueboldtext {
+  font-size: small;
+  color: blue;
+  font-weight: bold;
+}
+
+.largegreentext {
+  font-size: small;
+  color: green;
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
