@@ -1,0 +1,17 @@
+/* ID vs Classes
+IDs can only be referenced/used one time. 
+Classes can be used an infinite amount of times.
+
+*/
+
+#div1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: "80%";
+  border: solid black 3px;
+  background: yellow;
+  color: blue;
+}
+
+.underline {
+  text-decoration: underline;
+}
