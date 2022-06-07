@@ -10,6 +10,9 @@ Classes can be used an infinite amount of times.
   border: solid black 3px;
   background: yellow;
   color: blue;
+  margin-bottom: 50px;
+  /* margin: 0px 0px 30px 30px; (top, right, bottom, left) */
+  padding: 5px;
 }
 
 .underline {
