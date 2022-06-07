@@ -14,6 +14,7 @@
           <td></td>
         </tr>
         <tr>
+          <!-- input fields -->
           <td>First Name</td>
           <td><input type="text" name="firstname" maxlength="50" /></td>
         </tr>
@@ -22,6 +23,7 @@
           <td><input type="text" name="lastname" maxlength="50" /></td>
         </tr>
         <tr>
+          <!-- select menus -->
           <td>Position</td>
           <td>
             <select name="position">
@@ -43,13 +45,24 @@
             </select>
           </td>
         </tr>
+        <!-- check boxes and radio boxes -->
         <tr>
           <td>Job Type</td>
-          <td></td>
+          <td>
+            <!-- checkboxes let the user select multiple options -->
+            <input type="checkbox" name="fulltime" />Full-Time
+            <input type="checkbox" name="parttime" />Part-Time
+            <input type="checkbox" name="contract" />Contract
+          </td>
         </tr>
         <tr>
+          <!-- radio buttons let the user select one option with a radio button group -->
           <td>Employment Status</td>
-          <td></td>
+          <td>
+            <input type="radio" name="estatus" value="employed" />Employed
+            <input type="radio" name="estatus" value="unemployed" />Unemployed
+            <input type="radio" name="estatus" value="student" />Student
+          </td>
         </tr>
         <tr>
           <td>Additional Comments</td>
