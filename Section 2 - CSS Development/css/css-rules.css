@@ -1,0 +1,25 @@
+body {
+  background-color: yellow;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+p {
+  font-family: "Arial";
+  font-size: 20px;
+}
+
+.h1 {
+  color: red;
+}
+
+.h2 {
+  color: #33adff;
+}
+
+.h3 {
+  color: rgb(255, 0, 255);
+}
