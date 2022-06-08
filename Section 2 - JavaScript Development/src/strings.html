@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>strings</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <p id="demo"></p>
+      <p id="demo2"></p>
+    </div>
+
+    <script>
+      var studentName1 = "Meagan Merkel";
+      var studentName2 = "Truce Ramcharitar"; // "" or '' will work
+      document.getElementById("demo").innerHTML =
+        studentName1 + "<br>" + studentName2;
+
+      var line1 = "It's about time";
+      var line2 = "He is called 'Xavier'";
+      var line3 = 'She is called "Aria"';
+      document.getElementById("demo2").innerHTML =
+        line1 + "<br>" + line2 + "<br>" + line3;
+    </script>
+  </body>
+</html>
