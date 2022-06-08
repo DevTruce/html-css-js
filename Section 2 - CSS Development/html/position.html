@@ -9,12 +9,26 @@
         background-color: blue;
         width: 500px;
         height: 500px;
-        position: static;
+        /* position: static; */
+        position: relative;
+        top: 50px;
+        left: 50px;
+      }
+
+      #div2 {
+        background-color: yellow;
+        width: 350px;
+        height: 350px;
+        position: relative;
+        top: 80px;
+        left: 80px;
       }
     </style>
   </head>
 
   <body>
-    <div id="div1"></div>
+    <div id="div1">
+      <div id="div2"></div>
+    </div>
   </body>
 </html>
