@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>arithmetic operations</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <ol>
+        <p class="listheader">Calculations</p>
+        <li id="add"></li>
+        <li id="add2"></li>
+        <li id="sum"></li>
+        <li id="divi"></li>
+        <li id="cal-e"></li>
+        <li id="cal-f"></li>
+      </ol>
+    </div>
+
+    <!-- JavaScript -->
+    <script type="text/javascript">
+      // Calculation A
+      var x = 100 + 50;
+      document.getElementById("add").innerHTML = x;
+
+      // Calculation B
+      var a = 3;
+      var b = (20 + 30) * a;
+      document.getElementById("add2").innerHTML = b;
+
+      //Calculation C
+      var c = 100 - 50;
+      document.getElementById("sum").innerHTML = c;
+
+      // Calculation D
+      var d = 100 / 50;
+      document.getElementById("divi").innerHTML = d;
+
+      // Calculation E
+      var e = 5;
+      e++; // this will increment the value of e by one. (from 5 to 6)
+      var z = e;
+      document.getElementById("cal-e").innerHTML = z;
+
+      // Calculation F
+      var r = 5;
+      r--;
+      var t = r;
+      document.getElementById("cal-f").innerHTML = t;
+    </script>
+  </body>
+</html>
