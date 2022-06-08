@@ -10,16 +10,31 @@
       window.alert("error please refreash");
     </script> -->
 
-    <p id="a"></p>
     <h1 id="b"></h1>
+    <p id="a"></p>
     <p id="math"></p>
+    <p id="demo"></p>
+    <p id="math2"></p>
 
     <script type="text/javascript">
-      document.getElementById("b").innerHTML = "header";
-      document.getElementById("a").innerHTML = "paragraph";
-      document.getElementById("math").innerHTML = "MyText " + 56;
+      document.getElementById("b").innerHTML = "JavaScript Variables";
+      document.getElementById("a").innerHTML = "Working with variables";
+      // document.getElementById("math").innerHTML = "MyText " + 56;
       // single line comments
       /* multi line comments */
+
+      // variables
+      var x = 10;
+      var y = 15;
+      var z = x + y;
+      document.getElementById("demo").innerHTML = z;
+
+      var a = 25422;
+      var b = 23463546;
+      var c = -2452353;
+      var d = a + b / c;
+      var e = (d * a) / b;
+      document.getElementById("math2").innerHTML = e;
     </script>
   </body>
 </html>
