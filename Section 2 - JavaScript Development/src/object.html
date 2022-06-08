@@ -4,12 +4,28 @@
     <p id="cart"></p>
     <p id="carm"></p>
     <p id="carc"></p>
+    <h2 id="truce"></h2>
 
     <script>
       var car = { type: "acura", model: "integra", color: "grey" };
       document.getElementById("cart").innerHTML = car.type;
       document.getElementById("carm").innerHTML = car.model;
       document.getElementById("carc").innerHTML = car.color;
+
+      var person = {
+        firstname: "Truce ",
+        lastname: " Dev",
+        skincolor: " Brown",
+        height: " 6'2",
+      };
+      document.getElementById("truce").innerHTML =
+        person.firstname +
+        person.lastname +
+        " is" +
+        person.skincolor +
+        " and is" +
+        person.height +
+        " in height";
     </script>
   </body>
 </html>
