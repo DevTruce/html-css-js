@@ -9,6 +9,7 @@
       <p id="demo"></p>
       <p id="demo2"></p>
       <p id="demo3"></p>
+      <p id="demo4"></p>
     </div>
 
     <script>
@@ -25,6 +26,10 @@
 
       var alp = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
       document.getElementById("demo3").innerHTML = alp.length;
+
+      // \"players\" fixes the issue
+      var special = 'we are the best "players" in the country';
+      document.getElementById("demo4").innerHTML = special;
     </script>
   </body>
 </html>
