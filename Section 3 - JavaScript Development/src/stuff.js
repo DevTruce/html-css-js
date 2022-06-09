@@ -19,3 +19,7 @@ fruits[2] = "Kiwi";
 delete fruits[2];
 // adjust array listing, (2 is the index the items will start on.) (0 is to ensure we do not remove any list elements.)
 fruits.splice(2, 0, "Lemon", "Tangerine");
+// sort elements from a to b
+fruits.sort();
+//
+// fruits.reverse(); [this will sort elements in the reversed order]
