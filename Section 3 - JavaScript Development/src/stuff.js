@@ -13,3 +13,7 @@ fruits.shift();
 fruits.push("Cherry");
 // adds additional element to the start of an arrays item list
 fruits.unshift("Berry");
+// replaces selected array item
+fruits[2] = "Kiwi";
+// deletes selected array item
+delete fruits[2];
