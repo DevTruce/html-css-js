@@ -1,16 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="styles.css" />
     <script type="text/javascript" src="stuff.js"></script>
   </head>
   <body>
-    <p id="math"></p>
-    <p id="error"></p>
-    <button onclick="alertbox()">Try It</button>
+    <div class="container">
+      <p id="math"></p>
+      <p id="error"></p>
+      <p id="minmath"></p>
+      <p id="maxmath"></p>
+      <button onclick="alertbox()">Try It</button>
+    </div>
 
     <script>
       // this will output a random number between 0 - 1.
       document.getElementById("math").innerHTML = Math.random();
+
+      // this will output the lowest number in the selection.
+      document.getElementById("minmath").innerHTML = Math.min(
+        600,
+        300,
+        50,
+        75,
+        -5,
+        -150
+      );
+
+      // this will output the highest number in the selection.
+      document.getElementById("maxmath").innerHTML = Math.max(
+        600,
+        300,
+        50,
+        75,
+        -5,
+        -150
+      );
     </script>
   </body>
 </html>
