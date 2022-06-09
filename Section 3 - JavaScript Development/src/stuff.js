@@ -31,3 +31,13 @@ var boys = ["Bob", "Joe", "Walt", "Sam", "Fred"];
 var combined = girls.concat(boys);
 
 combined.sort();
+
+// #### boolean ####
+
+var b1 = Boolean(80);
+var b2 = Boolean(2.86);
+var b3 = Boolean(-10);
+var b4 = Boolean("true");
+var b5 = Boolean("false");
+var b6 = Boolean(1 + 8 + 10.14);
+var b7 = Boolean(0);
