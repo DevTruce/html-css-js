@@ -2,3 +2,6 @@
 function alertbox() {
   alert("error, please refreash");
 }
+
+// array
+var fruits = ["Apple", "Bananna", "Orange", "Grape", "Mango"];
