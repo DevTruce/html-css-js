@@ -17,3 +17,5 @@ fruits.unshift("Berry");
 fruits[2] = "Kiwi";
 // deletes selected array item
 delete fruits[2];
+// adjust array listing, (2 is the index the items will start on.) (0 is to ensure we do not remove any list elements.)
+fruits.splice(2, 0, "Lemon", "Tangerine");
