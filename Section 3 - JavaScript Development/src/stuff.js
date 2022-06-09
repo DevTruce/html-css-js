@@ -23,3 +23,11 @@ fruits.splice(2, 0, "Lemon", "Tangerine");
 fruits.sort();
 //
 // fruits.reverse(); [this will sort elements in the reversed order]
+
+var girls = ["Julie", "Samantha", "Laura", "Jill"];
+
+var boys = ["Bob", "Joe", "Walt", "Sam", "Fred"];
+
+var combined = girls.concat(boys);
+
+combined.sort();
