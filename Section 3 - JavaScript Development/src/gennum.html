@@ -10,6 +10,9 @@
       <p id="error"></p>
       <p id="minmath"></p>
       <p id="maxmath"></p>
+      <p id="roundnum"></p>
+      <p id="roundnumu"></p>
+      <p id="roundnumd"></p>
       <button onclick="alertbox()">Try It</button>
     </div>
 
@@ -36,6 +39,15 @@
         -5,
         -150
       );
+
+      // this will output the nearest rounded value.
+      document.getElementById("roundnum").innerHTML = Math.round(15.4);
+
+      // this will output the lowest rounded value.
+      document.getElementById("roundnumd").innerHTML = Math.floor(15.4);
+
+      // this will output the highest rounded value.
+      document.getElementById("roundnumu").innerHTML = Math.ceil(15.4);
     </script>
   </body>
 </html>
