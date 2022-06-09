@@ -7,10 +7,20 @@
     <div class="container">
       <p id="fruits"></p>
       <p id="fruitsl"></p>
+      <p id="fruitsts"></p>
     </div>
     <script>
+      // output single array item
       document.getElementById("fruits").innerHTML = fruits[0];
+
+      // output amount of item in the array
       document.getElementById("fruitsl").innerHTML = fruits.length;
+
+      // output all array items
+      document.getElementById("fruitsts").innerHTML = fruits.toString();
+
+      // change item seperator
+      document.getElementById("fruitsts").innerHTML = fruits.join(" / ");
     </script>
   </body>
 </html>
