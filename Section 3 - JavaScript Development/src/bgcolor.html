@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BG Color Changer</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="" />
+    <script type="text/javascript"></script>
+  </head>
+  <body>
+    <script>
+      var bgcolor = new Array(
+        "#540D6E",
+        "#EE4266",
+        "#FFD23F",
+        "#F3FCF0",
+        "#1F271B"
+      );
+
+      document.body.style.background =
+        bgcolor[Math.floor(Math.random() * bgcolor.length)];
+    </script>
+  </body>
+</html>
